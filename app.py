@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 # Load API key
-os.environ["MISTRAL_API_KEY"] = "9WIddRZCLmUWtAS6RWiVZkT5ODBDTe7i"
+os.environ["MISTRAL_API_KEY"] = "9WIddR*******UWtAS6RWiV8****ODBDTe7i"
 
 # LLM Setup
 llm = ChatMistralAI(
@@ -110,3 +110,4 @@ if user_input:
 
     # Save response
     st.session_state.messages.append({"role": "assistant", "content": response.content})
+
