@@ -1,0 +1,16 @@
+# Streamlit for the UI
+streamlit
+
+# LangChain core library
+langchain
+
+# Mistral AI integration (LangChain Mistral)
+langchain-mistralai
+
+# Optional dependencies for memory & prompts (usually included with langchain)
+pydantic
+
+# for .env
+python-dotenv
+
+# pathlib is part of Python standard library, no need to install
