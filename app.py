@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 from langchain_mistralai import ChatMistralAI
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.chat_history import InMemoryChatMessageHistory
 from pathlib import Path
@@ -111,5 +111,6 @@ if user_input:
 
     # Save response
     st.session_state.messages.append({"role": "assistant", "content": response.content})
+
 
 
